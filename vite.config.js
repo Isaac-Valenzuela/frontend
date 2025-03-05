@@ -3,5 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: './', // Asegura rutas relativas
+  server: {
+    historyApiFallback: true, // Asegura que las rutas no se rompan en desarrollo
+  },
 });
