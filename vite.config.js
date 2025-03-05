@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  server: {
-    historyApiFallback: true, // Asegura que las rutas no se rompan en desarrollo
+  build: {
+    outDir: 'dist', // Asegura que la carpeta de salida sea "dist"
   },
 });

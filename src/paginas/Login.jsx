@@ -71,7 +71,7 @@ const Login = () => {
     return (
         <>
             <ToastContainer />
-            <div className="w-1/2 h-screen bg-[url('/public/images/matricula.jpg')] 
+            <div className="w-1/2 h-screen bg-[url('./images/matricula.jpg')] 
             bg-no-repeat bg-cover bg-center sm:block hidden
             ">
             </div>
